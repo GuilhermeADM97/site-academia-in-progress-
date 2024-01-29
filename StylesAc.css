@@ -1,0 +1,416 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&family=Roboto+Slab:wght@800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'coda' cursive;
+}
+
+html .body{
+    height: 100%;
+}
+
+header{
+    width: 100%;
+    height: 96vh;
+    min-height: 800px;
+    padding: 40px 2%;
+    background: url(imagens/img5.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+header .menu{
+    width: 100%;
+    height: 70px;
+    background: #0f0011;
+    border-radius: 20px;
+    box-shadow: 00 0 5px #9f05e6;
+    position: relative;
+    top: -20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+header nav{
+    display: flex;
+    justify-content: end;
+}
+
+header nav.desktop-menu ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: end;
+}
+
+header nav.desktop-menu ul li{
+    padding: 0 20px;
+}
+
+header nav.desktop-menu ul li a{
+    line-height: 420%;
+    font-weight: 500%;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: aliceblue;
+    transition: 0.3s all;
+}
+
+header nav.desktop-menu ul li a:hover{
+    color: #4f055a;
+    text-decoration: underline;
+}
+
+header.logo{
+    width: 200px;
+    height: 100px;
+    background: url('imagens/logo\ s.png') no-repeat;
+    background-position: center;
+    background-size: contain;
+    position: relative;
+    top: 0%;
+}
+
+header .call{
+    width: 100%;
+    height: 50px;
+    background: #fff;
+    box-shadow:  0 0 5px #7201a2;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: stretch ;
+}
+
+header .call .box{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #101010;
+}
+
+header .call .box h1{
+    font-size: 1.6rem;
+    font-weight:  600;
+    letter-spacing: 8px;
+}
+
+header .call .box span{
+    color: #8008e2;
+}
+
+header .chamada1{
+    display: flex;
+    justify-content: center;
+    align-items: column;
+    align-items: center;
+    flex-direction: column;
+}
+
+header .chamada1 h3{
+    color: #fff;
+    font-size:  5rem;
+    margin-top: 60px;
+    margin-bottom:  60px;
+    text-transform: 60px;
+    text-shadow:  5px 8px 0 #560499;
+}
+
+header .chamada1 span{
+    color: #8008e2;
+}
+
+header .chamada1 p{
+    font-size:  1.5rem;
+    color: #9216d5;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+header .chamada1 button{
+    padding:  10px 20px;
+    background: #941fa6;
+    color: #fbfafa;
+    font-size: 1.3rem;
+    font-size: 400;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition:  0.3s all;
+}
+
+header .chamada1 button:hover{
+    background: #4e0177;
+}
+
+#estrutura{
+    width: 100%;
+    height: 150vh;
+    background: url('imagens/acdes.png') no-repeat;
+    background-size: cover;
+}
+
+#estrutura .conteudo .titulo{
+    display: flex;
+    justify-content:  center;
+    align-items:  center;
+    flex-direction: column;
+    height: 100px;
+}
+
+#estrutura .conteudo .titulo h1{
+    font-size: 2.5rem;
+    margin-top: 30px;
+    color: #8008e2;
+}
+
+#estrutura .conteudo .titulo p{
+    font-size: 1.1rem;
+    letter-spacing: 5px;
+}
+
+#estrutura .conteudo .text{
+   width: 100%;
+   text-align: center;
+   margin-top: 2.5rem;
+}
+
+#estrutura .conteudo .text h1{
+    color: #fbfafa;
+    font-size:  2.5rem;
+}
+
+#estrutura .conteudo .text span{
+    color: #4e008e;
+}
+
+#estrutura .conteudo .text p{
+    margin-top: 45px;
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+#estrutura .conteudo .call{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#estrutura .conteudo .call .box{
+    width: 15%;
+    height: 200px;
+    background: #373637;
+    border-radius: 15px;
+    box-shadow:  0 0 25px #560499;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: 0.9s all;
+}
+
+#estrutura .conteudo .call .box:hover{
+    transform:  scale(1.1);   
+}
+
+#estrutura .conteudo .call .box i{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.8rem;
+    color: #060607;
+    background: #48026a;
+    border-radius: 30%;
+}
+
+#estrutura .conteudo .call .box h2{
+    color: #a64af1;
+    font-size: 1.2rem;
+    font-weight: 100;
+    margin-top: 10px;
+}
+
+#estrutura .conteudo .call .box button{
+    padding: 5px 10px;
+    margin-top: 20px;
+    background: #902fdf;
+    color: #f5f5f5;
+    font-size: 1rem;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s all;
+}
+
+#about .container .title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 150px
+}
+
+#about{
+    width: 100%;
+    height: 125vh;
+    background: url('imagens/acdesign.png') no-repeat;
+    font-size: 150%;
+    background-position: cover;
+    border: #4e008e;
+}
+
+#about .container .content .text button :hover{
+    background: #48026a;
+}
+
+#contact{
+    width: 100%;
+    height: 125vh;
+    background: url('imagens/Home.png') no-repeat;
+}
+#contact .container .title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+
+}
+    
+#contact .container .title h1{
+    font-size: 2.5rem;
+    color: #560499;
+}
+
+#contact .container .title p{
+    font-size: 1.1rem;
+    letter-spacing: 5px;
+    color: #fff; 
+}
+
+#contact .container .content{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    margin-top: 30px;
+}
+
+#contact .container .content .left{
+    width: 45%;
+    height: 60vh;
+}
+
+#contact .container .content .left form{
+    width: 70%;
+    height: 70vh;
+    background: #101010;
+    box-shadow: 0 0 5px #560499;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contact .container .content .left form h1{
+    width: 100%;
+    height: 60px;
+    background: #4e008e;
+    font-weight: 200;
+    color: #fff;
+    text-align: center;
+    line-height: 60px;
+    border-radius: 30px 30px 0 0;
+}
+
+#contact .container .content .left form input[type=text],
+#contact .container .content .left form input[type=email],
+#contact .container .content .left form input[type=date]{
+    width: 75%;
+    height: 30px;
+    margin-top: 30px;
+    padding: 0 30px;
+    border: none;
+    outline: none;
+    background: #fff;
+    font-size: 1rem;
+    border-radius: 30px;
+}
+
+#contact .container .content .left form h2{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #fff;
+}
+
+#contact .container .content .left form input[type=submit]{
+    width: 75%;
+    height: 35px;
+    margin-top: 20px;
+    background: #560499;
+    border: none;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: 0.3s all;
+}
+
+#contact .container .content .left form input[type=submit]:hover{
+    background: #48026a
+}
+
+#contact .container .content .right{
+    width: 50%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#contact .container .content .right h1{
+    color: #4e008e;
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-top: 40px;
+}
+#contact .container .content .right h2{
+    color: #4f055a;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-top: 40px;
+}
+
+#footer .container{
+    width: 20%;
+    height: 100px;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#footer .container .box{
+    width: 33.3%;
+    display: flex;
+    justify-content: center;
+}
+
+#footer .container .box img{
+    width: 20px;
+}
+
+#footer .container .box i{
+    padding: 0.20px;
+    font-size: 1.8rem;
+    color: #4e008e;
+}
